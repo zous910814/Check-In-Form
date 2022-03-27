@@ -1,6 +1,6 @@
 # HINT 1: 當前目錄下要有 data 的資料夾
 
-![](1.png)
+![](1.PNG)
 
 # HINT 2: data 資料夾的名單檔案要是 a.csv
 
