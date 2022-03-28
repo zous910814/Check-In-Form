@@ -1,5 +1,6 @@
 import pandas as pd
 import tkinter as tk
+import os
 
 class Window(tk.Tk):
     def __init__(self):
@@ -87,5 +88,6 @@ class Window(tk.Tk):
 
 if __name__ == "__main__":
     w = Window()
-    w.checkin2csv()
+    if os.path.isfile("data/已簽到.csv") ==False:
+        w.checkin2csv()
     w.mainwindow().mainloop()
